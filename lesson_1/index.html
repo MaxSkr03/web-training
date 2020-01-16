@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8">
+		<title>Дороу</title>
+	</head>
+	<body>
+		<style>
+			body{
+				margin: 0; 
+				padding: 0;
+				color: white;
+				font-size: 20px;
+			}
+			.header{
+				height: 100px;
+				width: 100%;
+				background: orange;
+				position: fixed;
+				top: 0;
+				z-index: 2;
+			}
+			.blocks{
+				display: flex;
+				margin-top: 105px;
+			}
+			.sideBar-left{	
+				background: yellowgreen;
+				flex-basis: 200px;
+				margin-right: 5px;
+			}
+			.content{
+				height: 3000px;
+				background-color: crimson;				
+				flex-grow: 1;
+				flex-basis: 100px;
+				margin-right: 5px;
+			}
+
+			.sidebar-right{
+				width: 100px;
+				height: 2000px;
+				background: blue;
+				position: sticky;
+				top: 105px;
+				z-index: 1;
+			}
+			.footer{
+				width: 100%;
+				height: 700px;
+				background-color: darkcyan;
+				margin-top: 5px;
+			}
+		</style>
+		<div class="header">Header</div>
+		<div class="blocks">
+			<div class="sideBar-left">
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque pellentesque feugiat erat ac laoreet.
+				Cras eu fermentum libero. Maecenas iaculis in mi vel rutrum. Suspendisse eu tempus nisl. Cras ut luctus
+				leo, sit amet vestibulum dolor. Aenean eget tincidunt urna. Pellentesque non nisl at tellus lobortis 
+				dapibus. Vestibulum finibus ipsum a risus malesuada, vel porta turpis consectetur.
+				Donec et mi vitae lorem vestibulum dictum. Cras volutpat quam nec risus molestie fringilla. Donec efficitur
+				mattis elit in vulputate. Donec nec eleifend risus. Morbi fermentum ex at blandit pulvinar. Mauris commodo
+				libero in ipsum facilisis, vel interdum nibh imperdiet. Nam condimentum neque lectus, eget bibendum nisi 
+				tempor et. Quisque a magna dui.
+				Sed sed lacus cursus, posuere ligula at, tristique mi. Phasellus sed justo vitae nibh porttitor gravida quis et justo.
+				Sed mattis malesuada vehicula. Morbi at suscipit urna, a pretium neque. Proin id varius est, vitae fringilla purus. 
+				Ut eget bibendum tellus. Nulla hendrerit vulputate elit et congue. Praesent vel purus quis urna dapibus tincidunt ut sed 
+				nulla. Cras a neque porttitor, luctus sapien sed, iaculis odio. Fusce sit amet est faucibus, pellentesque dui ut, vehicula 
+				lectus. Nulla a nulla in elit blandit dictum id sed purus. Aenean massa turpis, posuere id mauris nec, blandit blandit 
+				libero. Fusce in bibendum massa. Donec egestas nulla et nunc lobortis, vel laoreet ex suscipit. Suspendisse rhoncus nisi 
+				velit, quis rhoncus quam volutpat sed. Curabitur ligula nisl, sagittis vel velit scelerisque, tincidunt lobortis lectus.
+				Sed viverra diam ac nisi ullamcorper, at scelerisque neque consequat. Phasellus magna diam, aliquet sed convallis nec, 
+				sollicitudin id metus. Vestibulum faucibus erat tincidunt felis viverra blandit. Nunc cursus et massa ut consectetur. 
+				Phasellus nec urna neque. Mauris sit amet libero ac ante pellentesque rutrum. Vestibulum commodo tellus id dolor volutpat
+				vehicula. Suspendisse sagittis pellentesque nulla, nec pulvinar leo ornare mattis. Vivamus tristique eu leo in venenatis. 
+				Curabitur faucibus feugiat sem vel commodo. Donec pretium ligula vel vehicula commodo.
+				Integer magna ex, porta id quam sed, feugiat malesuada turpis. Sed nec ipsum sem. Suspendisse condimentum 
+				iaculis tempor. Sed sem mi, scelerisque ut mauris vel, convallis vulputate purus. Mauris elementum augue eget 
+				luctus maximus. Aliquam elit erat, vulputate in lectus sed, ornare faucibus ipsum. Vestibulum dignissim enim at 
+				faucibus convallis. Nulla dui nisi, scelerisque in mollis ut, porta ut enim. Sed congue eros diam. Duis fringilla 
+				sodales turpis, non cursus lacus ornare vel. Etiam rhoncus efficitur lorem, nec aliquet lorem consectetur eget. 
+				Vestibulum vestibulum fringilla blandit. In hac habitasse platea dictumst. Mauris posuere vel libero gravida euismod. 
+				Proin vel molestie nisi, gravida euismod velit. Vestibulum consectetur eu arcu sit amet hendrerit.
+			</div>
+			<div class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque pellentesque feugiat erat ac laoreet.
+				Cras eu fermentum libero. Maecenas iaculis in mi vel rutrum. Suspendisse eu tempus nisl. Cras ut luctus
+				leo, sit amet vestibulum dolor. Aenean eget tincidunt urna. Pellentesque non nisl at tellus lobortis 
+				dapibus. Vestibulum finibus ipsum a risus malesuada, vel porta turpis consectetur.
+				Donec et mi vitae lorem vestibulum dictum. Cras volutpat quam nec risus molestie fringilla. Donec efficitur
+				mattis elit in vulputate. Donec nec eleifend risus. Morbi fermentum ex at blandit pulvinar. Mauris commodo
+				libero in ipsum facilisis, vel interdum nibh imperdiet. Nam condimentum neque lectus, eget bibendum nisi 
+				tempor et. Quisque a magna dui.
+				Sed sed lacus cursus, posuere ligula at, tristique mi. Phasellus sed justo vitae nibh porttitor gravida quis et justo.
+				Sed mattis malesuada vehicula. Morbi at suscipit urna, a pretium neque. Proin id varius est, vitae fringilla purus. 
+				Ut eget bibendum tellus. Nulla hendrerit vulputate elit et congue. Praesent vel purus quis urna dapibus tincidunt ut sed 
+				nulla. Cras a neque porttitor, luctus sapien sed, iaculis odio. Fusce sit amet est faucibus, pellentesque dui ut, vehicula 
+				lectus. Nulla a nulla in elit blandit dictum id sed purus. Aenean massa turpis, posuere id mauris nec, blandit blandit 
+				libero. Fusce in bibendum massa. Donec egestas nulla et nunc lobortis, vel laoreet ex suscipit. Suspendisse rhoncus nisi 
+				velit, quis rhoncus quam volutpat sed. Curabitur ligula nisl, sagittis vel velit scelerisque, tincidunt lobortis lectus.
+				Sed viverra diam ac nisi ullamcorper, at scelerisque neque consequat. Phasellus magna diam, aliquet sed convallis nec, 
+				sollicitudin id metus. Vestibulum faucibus erat tincidunt felis viverra blandit. Nunc cursus et massa ut consectetur. 
+				Phasellus nec urna neque. Mauris sit amet libero ac ante pellentesque rutrum. Vestibulum commodo tellus id dolor volutpat
+				vehicula. Suspendisse sagittis pellentesque nulla, nec pulvinar leo ornare mattis. Vivamus tristique eu leo in venenatis. 
+				Curabitur faucibus feugiat sem vel commodo. Donec pretium ligula vel vehicula commodo.
+				Integer magna ex, porta id quam sed, feugiat malesuada turpis. Sed nec ipsum sem. Suspendisse condimentum 
+				iaculis tempor. Sed sem mi, scelerisque ut mauris vel, convallis vulputate purus. Mauris elementum augue eget 
+				luctus maximus. Aliquam elit erat, vulputate in lectus sed, ornare faucibus ipsum. Vestibulum dignissim enim at 
+				faucibus convallis. Nulla dui nisi, scelerisque in mollis ut, porta ut enim. Sed congue eros diam. Duis fringilla 
+				sodales turpis, non cursus lacus ornare vel. Etiam rhoncus efficitur lorem, nec aliquet lorem consectetur eget. 
+				Vestibulum vestibulum fringilla blandit. In hac habitasse platea dictumst. Mauris posuere vel libero gravida euismod. 
+				Proin vel molestie nisi, gravida euismod velit. Vestibulum consectetur eu arcu sit amet hendrerit.
+			</div>
+			<div class="sidebar-right">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque pellentesque feugiat erat ac laoreet.
+				Cras eu fermentum libero. Maecenas iaculis in mi vel rutrum. Suspendisse eu tempus nisl. Cras ut luctus
+				leo, sit amet vestibulum dolor. Aenean eget tincidunt urna. Pellentesque non nisl at tellus lobortis 
+				dapibus. Vestibulum finibus ipsum a risus malesuada, vel porta turpis consectetur.
+				Donec et mi vitae lorem vestibulum dictum. Cras volutpat quam nec risus molestie fringilla. Donec efficitur
+				mattis elit in vulputate. Donec nec eleifend risus. Morbi fermentum ex at blandit pulvinar. Mauris commodo
+				libero in ipsum facilisis, vel interdum nibh imperdiet. Nam condimentum neque lectus, eget bibendum nisi 
+				tempor et. Quisque a magna dui.
+				Sed sed lacus cursus, posuere ligula at, tristique mi. Phasellus sed justo vitae nibh porttitor gravida quis et justo.
+				Sed mattis malesuada vehicula. Morbi at suscipit urna, a pretium neque. Proin id varius est, vitae fringilla purus. 
+				Ut eget bibendum tellus. Nulla hendrerit vulputate elit et congue. Praesent vel purus quis urna dapibus tincidunt ut sed 
+				nulla. Cras a neque porttitor, luctus sapien sed, iaculis odio. Fusce sit amet est faucibus, pellentesque dui ut, vehicula 
+				lectus. Nulla a nulla in elit blandit dictum id sed purus. Aenean massa turpis, posuere id mauris nec, blandit blandit 
+				libero. Fusce in bibendum massa. Donec egestas nulla et nunc lobortis, vel laoreet ex suscipit. Suspendisse rhoncus nisi 
+				velit, quis rhoncus quam volutpat sed. Curabitur ligula nisl, sagittis vel velit scelerisque, tincidunt lobortis lectus.
+				Sed viverra diam ac nisi ullamcorper, at scelerisque neque consequat. Phasellus magna diam, aliquet sed convallis nec, 
+				sollicitudin id metus. Vestibulum faucibus erat tincidunt felis viverra blandit. Nunc cursus et massa ut consectetur. 
+				Phasellus nec urna neque. Mauris sit amet libero ac ante pellentesque rutrum. Vestibulum commodo tellus id dolor volutpat
+				vehicula. Suspendisse sagittis pellentesque nulla, nec pulvinar leo ornare mattis. Vivamus tristique eu leo in venenatis. 
+				Curabitur faucibus feugiat sem vel commodo. Donec pretium ligula vel vehicula commodo.
+				Integer magna ex, porta id quam sed, feugiat malesuada turpis. Sed nec ipsum sem. Suspendisse condimentum 
+				iaculis tempor. Sed sem mi, scelerisque ut mauris vel, convallis vulputate purus. Mauris elementum augue eget 
+				luctus maximus. Aliquam elit erat, vulputate in lectus sed, ornare faucibus ipsum. Vestibulum dignissim enim at 
+				faucibus convallis. Nulla dui nisi, scelerisque in mollis ut, porta ut enim. Sed congue eros diam. Duis fringilla 
+				sodales turpis, non cursus lacus ornare vel. Etiam rhoncus efficitur lorem, nec aliquet lorem consectetur eget. 
+				Vestibulum vestibulum fringilla blandit. In hac habitasse platea dictumst. Mauris posuere vel libero gravida euismod. 
+				Proin vel molestie nisi, gravida euismod velit. Vestibulum consectetur eu arcu sit amet hendrerit.
+			</div>	
+		</div>
+		<div class="footer">Footer</div>
+		<script src="main.js"></script>
+	</body>
+</html>
