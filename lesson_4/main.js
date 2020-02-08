@@ -1,9 +1,11 @@
-var arr = [['.', '.', '.', '.', '.',], 
-           ['.', '.', '.', '.', '.',], 
-           ['.', '.', '.', '.', '.',], 
-           ['.', '.', '.', '.', '.',], 
-           ['.', '.', '.', '.', '.',]
-          ];
+var arr = [];
+var num = 7; 
+for (var i = 0; i < num; i++){
+    for (var j = 0; j < num; j++){
+        arr.push([]);
+        arr[j].push('.')
+    }
+}
 for (var i = 0; i < arr.length; i++){
     var str = '';
     for (var j = 0; j < arr[i].length; j++){
@@ -13,4 +15,3 @@ for (var i = 0; i < arr.length; i++){
     }
     console.log(str);
 }
-
