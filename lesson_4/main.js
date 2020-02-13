@@ -1,9 +1,17 @@
 var arr = [];
+<<<<<<< HEAD
 var num = 5; 
 for (var i = 0; i < num; i++){
     arr.push([]);
     for (var j = 0; j < num; j++){
         arr[i].push('.');
+=======
+var num = 7; 
+for (var i = 0; i < num; i++){
+    for (var j = 0; j < num; j++){
+        arr.push([]);
+        arr[j].push('.')
+>>>>>>> bea4c8088e093f922c1c60bc6b7846ba0bb580ad
     }
 }
 for (var i = 0; i < arr.length; i++){
