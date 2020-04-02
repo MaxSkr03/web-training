@@ -4,9 +4,15 @@ var content = document.querySelector('#content').value;
 btn.onclick = function (){
     var content = document.querySelector('#content').value;
     var title = document.querySelector('#title').value;
-    task.Add(new Note(content, title));
-    console.log(task.Get());
-    renderTable(task)
+    if (content == '' && title == ''){
+        return
+    }
+    else{
+        task.Add(new Note(content, title));
+        console.log(task.Get());
+        renderTable(task)
+    }
+    
 }
 
 renderTable(task)
