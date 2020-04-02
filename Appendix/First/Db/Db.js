@@ -41,7 +41,3 @@ TasksReposit.prototype.Remove = function (elemId){
 TasksReposit.prototype.Set = function(content){
     Reposit.prototype.Set.call(this, JSON.stringify(content));
 }
-
-
-
-
