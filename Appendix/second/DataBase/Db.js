@@ -18,6 +18,9 @@ var TasksReposit = function (localStorage){
 TasksReposit.prototype = Object.create(Reposit.prototype);
 
 TasksReposit.prototype.Get = function(){
+    if (Reposit.prototype.Get.call(this) == null){
+        return [];
+    }
     return JSON.parse(Reposit.prototype.Get.call(this));
 }
 
@@ -41,3 +44,4 @@ TasksReposit.prototype.Remove = function (elemId){
 TasksReposit.prototype.Set = function(content){
     Reposit.prototype.Set.call(this, JSON.stringify(content));
 }
+
