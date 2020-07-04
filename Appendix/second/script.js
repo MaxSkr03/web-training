@@ -58,4 +58,5 @@ function renderBlock(task){
         img.src = 'images/iconfinder_90_111056.png';
         document.querySelector('#remove').prepend(img);
     }
+    
 }
